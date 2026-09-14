@@ -1,9 +1,3 @@
-/* ============================================
-   Rock Paper Scissors – Styles
-   Simple, readable layout. No frameworks.
-   ============================================ */
-
-/* ---------- Reset & base ---------- */
 *,
 *::before,
 *::after {
@@ -23,7 +17,6 @@ body {
   color: #eaeaea;
 }
 
-/* ---------- Heading ---------- */
 h1 {
   font-size: 2.4rem;
   margin-bottom: 0.25rem;
@@ -37,7 +30,6 @@ h1 {
   margin-bottom: 1.8rem;
 }
 
-/* ---------- Scoreboard ---------- */
 .scoreboard {
   display: flex;
   align-items: center;
@@ -72,7 +64,6 @@ h1 {
   color: #555;
 }
 
-/* ---------- Choice buttons ---------- */
 .choices {
   display: flex;
   gap: 1rem;
@@ -108,7 +99,6 @@ h1 {
   transform: none;
 }
 
-/* ---------- Round result ---------- */
 .result {
   text-align: center;
   margin-bottom: 1.2rem;
@@ -130,7 +120,6 @@ h1 {
 .outcome-lose  { color: #f87171; }
 .outcome-tie   { color: #facc15; }
 
-/* ---------- Game-over message ---------- */
 .game-over {
   font-size: 1.6rem;
   font-weight: 700;
@@ -142,7 +131,6 @@ h1 {
 .game-over.player-wins  { color: #4ade80; }
 .game-over.computer-wins { color: #f87171; }
 
-/* ---------- Reset button ---------- */
 .reset-btn {
   font-size: 1rem;
   padding: 0.65rem 1.8rem;
