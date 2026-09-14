@@ -97,7 +97,6 @@ function playRound(playerChoice) {
   const computerChoice = getComputerChoice();
   const outcome = decideWinner(playerChoice, computerChoice);
 
-  // Update score variables
   if (outcome === "win") {
     playerScore = playerScore + 1;
   } else if (outcome === "lose") {
